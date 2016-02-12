@@ -16,3 +16,5 @@ ggplot(storms, aes(x = long, y = lat)) +
   coord_map(projection = "ortho", orientation = c(21, -60, 0))
 
 ggsave("storms.png", width = 7, height = 5)
+
+# system('git remote add origin https://github.com/rohrkemper/git-project.git')
